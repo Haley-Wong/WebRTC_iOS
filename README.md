@@ -8,7 +8,7 @@
 
 # 提醒
 目录下有两个工程：<br>
-`LocalWebRTC` 是局域网音视频通话的例子。不需要STUN、TURN服务器，也没有用到WebSocket。
+`LocalWebRTC` 是局域网音视频通话的例子。不需要STUN、TURN服务器，也没有用到WebSocket。<br>
 `RemoteWebRTC`等待下次上传。
 
 # 运行前准备
@@ -23,6 +23,9 @@
 * 2.从百度云盘将WebRTC的静态库下载下来后，加入工程内。
 当然也可以用自己编译的WebRTC静态库，但是要将h264部分编译进去，iOS下视频编解码、传输用H264。
 * 3.然后就可以成功运行示例工程了。
+
+# 效果图
+![效果图](https://github.com/Haley-Wong/RTCChatUI/blob/master/pic3.png)
 
 
 
