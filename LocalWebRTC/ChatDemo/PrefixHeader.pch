@@ -17,7 +17,7 @@
     #import "XMPPFramework.h"
 #endif
 
-#error 这里需要你填上XMPP服务器的IP和端口号
+//#error 这里需要你填上XMPP服务器的IP和端口号
 #define kXMPP_HOST @"vr.weilian.cn"
 #define kXMPP_PORT 5222
 
