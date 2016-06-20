@@ -3,13 +3,15 @@
 我也写了三篇关于WebRTC的文章：<br>
 [iOS下WebRTC音视频通话（一）](http://www.jianshu.com/p/36c11a3e49ed)<br>
 [iOS下WebRTC音视频通话（二）-局域网内音视频通话](http://www.jianshu.com/p/aa9802c4296f)<br>
-[iOS下WebRTC音视频通话（三）-外网音视频通话]() 这一篇还在准备中。<br>
+[iOS下WebRTC音视频通话（三）-外网音视频通话](http://www.jianshu.com/p/5cfd16463487)。<br>
 示例工程中需要用到的WebRTC静态库，因为太大，我已上传到百度云盘,[地址在这](http://pan.baidu.com/s/1nvKpYRZ)。<br>
 
 # 提醒
-目录下有两个工程：<br>
+目录下有三个工程：<br>
 `LocalWebRTC` 是局域网音视频通话的例子。不需要STUN、TURN服务器，也没有用到WebSocket。<br>
-`RemoteWebRTC`等待下次上传。
+`RemoteWebRTC`是外络环境用WebSocket做信令传输的例子。
+`RemoteXMPPRTC`是外网环境下用XMPP做信令传输的例子。
+这三个工程都需要有XMPP服务器，后两个外网环境的示例还需要后台搭建好房间服务器、配置STUN、TURN服务器等。
 
 # 运行前准备
 工程想要成功运行，你需要一些准备工作：
