@@ -293,7 +293,6 @@ static WebRTCClient *instance = nil;
     _remoteVideoView = nil;
     _hasReceivedSdp = NO;
     _webSocket = nil;
-    _HaveSentCandidate = NO;
 }
 
 - (void)listenSystemCall
